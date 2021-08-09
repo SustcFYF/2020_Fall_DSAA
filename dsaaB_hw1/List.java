@@ -41,7 +41,7 @@ public class List {
         } else if (isDescending) {
             sorted = -1;
         } else sorted = 0;
-        return sorted;//0-unsorted, 1-ascending, -1-descending
+        return sorted;
     }
 
     @Override
