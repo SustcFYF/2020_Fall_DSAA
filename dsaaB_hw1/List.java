@@ -47,7 +47,6 @@ public class List {
     @Override
     public String toString() {
         String str = "[";
-//str += val;
         ListNode pListNode = headListNode;
         while (pListNode.next != null) {
             str += pListNode.val + ", ";
